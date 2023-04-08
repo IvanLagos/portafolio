@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1,h3{
+    font-size: 60px;
+    text-align: left;
+    color: white;
+    background-color: rgb(101, 101, 101);
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 60px;
+    text-align: left;
+    color: white;
+    background-color: rgb(137, 137, 137);
+    font-family: 'Roboto', sans-serif;
+}
+h4,h5,h6{
+    font-size: 28px;
+    text-align: left;
+}
+body{
+    background-color: darkgray;
+}
+.container{
+    padding-top: 3rem;
+}
+.container-fluid{
+    padding-left: 3rem;
+}
+.container-fluid p{
+    color: white;
+    font-size: 25px;    
+}
+.container-fluid a{
+    font-size: 20px;
+   
+}
+.descriptivo{
+    display: inline;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(101, 101, 101);
+}
+.text-descriptivo{
+    text-align: left;
+    background-color: rgb(101, 101, 101);
+    color: white;
+    margin-left: 40px; 
+    margin-top: 40px; 
+}
+.text-descriptivo p{
+    font-size: 25px;
+}
+.img-descriptivo img{
+    width: 97%;
+    margin-left: 1rem;
+}
+.card{
+    background-color: rgb(136, 135, 135);
+}
+.col img{
+    width: 318px;
+    height: 318px;
+}
+.submit{
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    background-color: rgb(137, 137, 137);
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    font-size: 22px;
+}
